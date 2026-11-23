@@ -5,21 +5,21 @@ class Sker < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/ai-timer/sker/releases/download/v0.1.1-preview/sker-aarch64-apple-darwin.tar.xz"
-      sha256 "ff81817ce577b6becb60b11e356cc6aefc7a69110c01d0836d19957fe4a84820"
+      sha256 "4131f0542a9942d9f1ea02461f70f1b9c58bdaea012dcc31902f58d9594266fa"
     end
     if Hardware::CPU.intel?
       url "https://github.com/ai-timer/sker/releases/download/v0.1.1-preview/sker-x86_64-apple-darwin.tar.xz"
-      sha256 "37555ff021c3cb411f9c08a9835dbb7110fbc576204c3b3e5c296a2c9b27e23e"
+      sha256 "c12bd9a316fe92dc099017bb47f94eb77f9b06937b6f12154b9ed09f1b217857"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/ai-timer/sker/releases/download/v0.1.1-preview/sker-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e172ea11f956e3259a64e085fe31e1e2a47c82f2379c766c015e8318e6dffaf2"
+      sha256 "a9ef8722914ac964e122cb0e6fc46338af90d7bd1502b14a9867dd5d99dcd57f"
     end
     if Hardware::CPU.intel?
       url "https://github.com/ai-timer/sker/releases/download/v0.1.1-preview/sker-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "38a274649abcd58be32698e307f62438495da00356d5c5a93a235d5329d0d418"
+      sha256 "12e5090319f445f908fd0a6ad507c15df5950f8637f36b0d5cbd1a6bed6c48e9"
     end
   end
   license "Apache-2.0"
